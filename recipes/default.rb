@@ -6,3 +6,9 @@
 # 
 # All rights reserved - Do Not Redistribute
 #
+
+user "myface" do
+  action :create
+end
+
+package "sudo"

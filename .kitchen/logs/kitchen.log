@@ -1,0 +1,29 @@
+I, [2014-04-22T19:01:30.819604 #8566]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+E, [2014-04-22T19:01:30.819870 #8566] ERROR -- Kitchen: ------Exception-------
+E, [2014-04-22T19:01:30.819904 #8566] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-04-22T19:01:30.819918 #8566] ERROR -- Kitchen: Message: Kitchen YAML file /Users/alextrull/chef/getchef/atrullorg/chef-repo/cookbooks/myface/.kitchen.yml does not exist.
+E, [2014-04-22T19:01:30.819940 #8566] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-04-22T19:01:30.819961 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2014-04-22T19:01:30.819981 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:78:in `data'
+E, [2014-04-22T19:01:30.819991 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:66:in `suites'
+E, [2014-04-22T19:01:30.820001 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2014-04-22T19:01:30.820011 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-04-22T19:01:30.820022 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:52:in `instances'
+E, [2014-04-22T19:01:30.820042 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-04-22T19:01:30.820053 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-04-22T19:01:30.820063 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/command/test.rb:42:in `block in call'
+E, [2014-04-22T19:01:30.820073 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2014-04-22T19:01:30.820083 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/command/test.rb:40:in `call'
+E, [2014-04-22T19:01:30.820093 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-04-22T19:01:30.820103 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:153:in `test'
+E, [2014-04-22T19:01:30.820113 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-04-22T19:01:30.820123 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-04-22T19:01:30.820135 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:233:in `invoke_task'
+E, [2014-04-22T19:01:30.820145 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-04-22T19:01:30.820155 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-04-22T19:01:30.820165 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-04-22T19:01:30.820175 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-04-22T19:01:30.820191 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/test-kitchen-1.2.1/bin/kitchen:13:in `<top (required)>'
+E, [2014-04-22T19:01:30.820204 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/bin/kitchen:23:in `load'
+E, [2014-04-22T19:01:30.820214 #8566] ERROR -- Kitchen: /Users/alextrull/.rbenv/versions/1.9.3-p484/bin/kitchen:23:in `<main>'
+E, [2014-04-22T19:01:30.820224 #8566] ERROR -- Kitchen: ----------------------
